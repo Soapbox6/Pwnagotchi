@@ -39,13 +39,13 @@ class Voice:
             self._('Generating keys... Can I have a hug while I wait? QwQ'),
             self._('Creating keys... I\'m lonely, will you keep me company? OwO'),
             self._('Makin\' keys here! Can you pat my head for good luck? UwU'),
-            self._('I'm making the magic happen! Can you boop my nose for good luck? >///<')])
+            self._('I\'m making the magic happen! Can you boop my nose for good luck? >///<')])
 
     def on_normal(self):
         return random.choice([
             '',
             '...',
-            self._('I'm just here, waiting for you to notice me... QwQ'),
+            self._('I\'m just here, waiting for you to notice me... QwQ'),
             self._('Please don\'t forget about me, human! UwU')])
 
     def on_free_channel(self, channel):
