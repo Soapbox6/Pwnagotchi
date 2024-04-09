@@ -46,7 +46,7 @@ class Voice:
             '',
             '...',
             self._('I\'m just here, waiting for you to notice me... QwQ'),
-            self._('Please don\'t forget about me, human! UwU')])
+            self._('Please don\'t forget about me, master! UwU')])
 
     def on_free_channel(self, channel):
         return self._('Hey, channel {channel} is fwee! Let\'s p-pawty together! >w<').format(channel=channel)
@@ -131,7 +131,7 @@ class Voice:
         return random.choice([
             self._('Napping for {secs}s... Will you wake me up with a cuddle? UwU').format(secs=secs),
             self._('Zzzzz... Can you sing me a lullaby while I sleep? OwO'),
-            self._('ZzzZzzz ({secs}s)... Dreaming of magical adventures with you... >///<').format(secs=secs)])
+            self._('ZzzZzzz ({secs}s)... Dreaming of adventures with you... >///<').format(secs=secs)])
 
     def on_shutdown(self):
         return random.choice([
